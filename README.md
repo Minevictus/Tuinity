@@ -1,7 +1,11 @@
 Tuinity ![Java CI](https://github.com/Spottedleaf/Tuinity/workflows/Java%20CI/badge.svg)
 ==
 
-Fork of [Paper](https://github.com/PaperMC/Paper) aimed at improving server performance at high playercounts.
+This is a fork by Minevictus. We only own code which is authored by one of us and all of it is under MIT.
+This notice is the only modification to this README along with changing the link under this line.
+Please do not confuse us for Spottedleaf and do not confuse this **fork** from Spottedleaf's own software.
+
+Fork of [Tuinity](https://github.com/Spottedleaf/Tuinity) aimed at improving server performance at high playercounts.
 
 ## Contact
 [IRC](http://irc.spi.gt/iris/?channels=tuinity) | [Discord](https://discord.gg/CgDPu27)
