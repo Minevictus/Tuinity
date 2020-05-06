@@ -153,10 +153,10 @@ index 949acb1d3242c9770ed8b66dd2723dc283343c09..8b7138c281c4fc246d41e14531f8a6d4
          }
  
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index f0c7e5c2145f42818701c91ee6b2fcde16bd12e0..0e420f76d9ccdf61659682f16195b0b3e0e0e31f 100644
+index b76379a17ca4c1ad009acfd4407d103ecb476a4e..f222f29a0e238bb018606ea5e7237c7c1f45763d 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-@@ -126,6 +126,7 @@ import org.bukkit.plugin.messaging.StandardMessenger;
+@@ -125,6 +125,7 @@ import org.bukkit.plugin.messaging.StandardMessenger;
  import org.bukkit.scoreboard.Scoreboard;
  
  import net.md_5.bungee.api.chat.BaseComponent; // Spigot
@@ -164,7 +164,7 @@ index f0c7e5c2145f42818701c91ee6b2fcde16bd12e0..0e420f76d9ccdf61659682f16195b0b3
  
  @DelegateDeserialization(CraftOfflinePlayer.class)
  public class CraftPlayer extends CraftHumanEntity implements Player {
-@@ -757,6 +758,11 @@ public class CraftPlayer extends CraftHumanEntity implements Player {
+@@ -756,6 +757,11 @@ public class CraftPlayer extends CraftHumanEntity implements Player {
          }
  
          if (entity.isVehicle()) {
